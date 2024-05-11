@@ -1,0 +1,14 @@
+@use 'colors' as *;
+
+html[data-theme="light"] {
+  --background-color: #{$bg-light};
+  --text-color: #{$text-light};
+  --page-loader: #{$page-loader-light};
+}
+
+html[data-theme="dark"] {
+  --background-color: #{$bg-dark};
+  --text-color: #{$text-dark};
+  --page-loader: #{$page-loader-dark};
+}
+
