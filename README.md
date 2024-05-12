@@ -1,70 +1,196 @@
-# Getting Started with Create React App
+<div align="center">
+<img src="bg-accent_rounded.png" height="100" />
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Bloggios React Frontend</h1>
 
-## Available Scripts
+<div align="center">
+<img src="https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square" />
+</div>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="https://github.com/Bloggios-Open-Source/auth-server/LICENSE" target="blank">
+<img src="https://img.shields.io/github/license/Bloggios-Open-Source/auth-server?style=flat-square" alt="Bloggios-Open-Source licence" />
+</a>
+<a href="https://github.com/Bloggios-Open-Source/auth-server/fork" target="blank">
+<img src="https://img.shields.io/github/forks/Bloggios-Open-Source/auth-server?style=flat-square" alt="Bloggios-Open-Source forks"/>
+</a>
+<a href="https://github.com/Bloggios-Open-Source/auth-server/stargazers" target="blank">
+<img src="https://img.shields.io/github/stars/Bloggios-Open-Source/auth-server?style=flat-square" alt="Bloggios-Open-Source stars"/>
+</a>
+<a href="https://github.com/Bloggios-Open-Source/auth-server/issues" target="blank">
+<img src="https://img.shields.io/github/issues/Bloggios-Open-Source/auth-server?style=flat-square" alt="Bloggios-Open-Source issues"/>
+</a>
+<a href="https://github.com/Bloggios-Open-Source/auth-server/pulls" target="blank">
+<img src="https://img.shields.io/github/issues-pr/Bloggios-Open-Source/auth-server?style=flat-square" alt="Bloggios-Open-Source pull-requests"/>
+</a>
+</p>
 
-### `npm start`
+### Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Bloggios' frontend application is developed using React JS, specifically created with Create React App (CRA), alongside
+essential dependencies such as Redux Toolkit and React Query. Despite being in its nascent stage, the project commenced
+in May and is progressively evolving. This repository encompasses the comprehensive end-to-end codebase of the Bloggios
+Application's frontend, inclusive of its admin panel functionality. For the backend infrastructure, corresponding
+components are distributed across separate repositories. The authentication mechanism is housed within the "auth-server"
+repository, while the API gateway, responsible for routing requests to designated microservices, resides in "
+bloggios-cloud-gateway". Additionally, functionalities related to email notifications and other email-related tasks are
+managed within a dedicated "email service" repository.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Software Required
 
-### `npm test`
+- Node Js and NPM
+- VS Code
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🍴 Fork and Clone the Repo
 
-### `npm run build`
+First, you need to fork the `bloggios-frontend` repo. You can do this by clicking the `Fork` button on the top right corner of
+the repo. If you are new to forking, please watch this [YouTube Guide](https://www.youtube.com/watch?v=h8suY-Osn8Q) to
+get started.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Once forked, you can clone the repo by clicking the `Clone or Download` button on the top right corner of the forked
+repo.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Please change the directory after cloning the repository using the `cd <folder-name>` command.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> **Note:** Please do not remove and update the `package.json` and `package-lock.json` file from the resources and root folder
+> respectively. If needed to update then please mention in the issue while raising the PR.
 
-### `npm run eject`
+### Open Project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Next, open the project in your favourite IDE. We recommended using VS Code or WebStorm but you can use any.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Install Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+##### For VS Code
+- Open the terminal or press Ctrl + Shift + ` on windows
+- Or ⌃ + Shift + ` for Mac OS
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Then type the below command in terminal and hit enter
 
-## Learn More
+```
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Developed Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+In this section you can find the developing or developed feature of application to take a track on find a bugs if any.
+One can find a bug and resolved it of completely developed features.
 
-### Code Splitting
+> To ensure seamless collaboration and minimize potential conflicts, kindly update the FEATURES.md file whenever initiating work on a new feature or addressing a bug. This practice enhances project transparency and facilitates effective communication among contributors, thereby fostering a cohesive development environment. Thank you for your cooperation in maintaining project integrity.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Steps to Start developing new feature
 
-### Analyzing the Bundle Size
+- Navigate to [Features.md](FEATURES.md) file.
+- Check if your feature is conflicting or not
+- Add your feature there by adding a new heading (Add your feature under particular route)
+- Add all the issues representing your feature along with bugs
+- Add route to that feature if there is no route then elaborate the feature
+- Optional : Explain how did you developed that feature
+- Add details of your and/or other contributors along with you to the contributors section.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Please refer this code for adding new feature
 
-### Making a Progressive Web App
+```
+    ## Feature Title
+    **Short summary on feature**
+    - Issue Numbers
+    > Feature Route (if any) or description
+    
+    **Description**
+    Add Feature description upto 250 words
+    Also let other users know how you implement it
+    
+    Thanks goes to these wonderful people for developing this feature
+    
+    <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+    <!-- prettier-ignore-start -->
+    <!-- markdownlint-disable -->
+    <table>
+        <tbody>
+            <tr>
+                <td align="center" valign="top" width="14.28%"><a href="https://github.com/<github-username>"><img src="<image link>" width="100px;" alt="<alt text>"/><br /><sub><b>{your name}</b></sub></a><br /><a href="https://github.com/<github-username>" title="Code">💻</a></td>
+            </tr>
+        </tbody>
+    </table>
+    
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Steps to fix a bug on developed feature
 
-### Advanced Configuration
+- Navigate to [Features.md](FEATURES.md) file.
+- Find the feature of your bug using route or heading.
+- If feature not found then add new heading for your bug under same route
+- Create new issue for that bug and add there
+- Optional : Explain how did you fixed that bug
+- Add details of your and/or other contributors along with you to the contributors section.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Please refer this code for adding new bug
 
-### Deployment
+```
+    ## Bug Title (Under same feature)
+    **Short summary on bug**
+    - Issue Number
+    > Feature Route (if any) or description
+    
+    **Description**
+    Add bug description upto 250 words
+    Add explanation for bug fix
+    
+    Thanks goes to these wonderful people for fixing this bug
+    
+    <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+    <!-- prettier-ignore-start -->
+    <!-- markdownlint-disable -->
+    <table>
+        <tbody>
+            <tr>
+                <td align="center" valign="top" width="14.28%"><a href="https://github.com/<github-username>"><img src="<image link>" width="100px;" alt="<alt text>"/><br /><sub><b>{your name}</b></sub></a><br /><a href="https://github.com/<github-username>" title="Code">💻</a></td>
+            </tr>
+        </tbody>
+    </table>
+    
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+> We will soon introduce assets repository to add documentation on features and bugs.
 
-### `npm run build` fails to minify
+## 🤝 Contributing to `Bloggios`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Any kind of positive contribution is welcome! Please help us to grow by contributing to the project.
+
+If you wish to contribute, you can,
+
+- Star Repositories Bloggios
+- Suggest a Feature
+- Test the application, and help it improve.
+- Improve the app, fix bugs, etc.
+- Improve documentation.
+- Create content about Bloggios and share it with the world.
+
+> Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the
+> process for submitting pull requests to us.
+
+🆕 New to Open Source? 💡 Follow this [guide](https://opensource.guide/how-to-contribute/) to jumpstart your Open Source
+journey 🚀.
+
+## 🙏 Support
+
+We all need support and motivation. `Bloggios` is not an exception. Please give this project repositories a ⭐️ to
+encourage and show that you liked it. Don't forget to leave a star ⭐️ before you move away.
+
+If you found the app helpful, consider supporting us with a coffee.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/rohit-zip"><img src="https://avatars.githubusercontent.com/u/75197401?v=4" width="100px;" alt="Rohit Parihar"/><br /><sub><b>Rohit Parihar</b></sub></a><br /><a href="https://github.com/rohit-zip" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
