@@ -4,10 +4,6 @@
 
 <h1 align="center">Bloggios Frontend</h1>
 
-<div align="center">
-<h2>Features Section</h2>
-</div>
-
 # Route (/login)
 
 ## 1.) Login Screen
