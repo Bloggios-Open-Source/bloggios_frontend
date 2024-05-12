@@ -1,4 +1,4 @@
-import'./ThemeToggleButton.scss';
+import './ThemeToggleButton.scss';
 import {FaMoon, FaSun} from "react-icons/fa";
 import {serviceConstants} from "../../../Constants/ServiceConstants";
 import {useDispatch, useSelector} from "react-redux";

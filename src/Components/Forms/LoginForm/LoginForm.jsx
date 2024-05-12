@@ -1,11 +1,9 @@
 import './LoginForm.scss';
 import {useState} from 'react';
-import {emailValidator} from "../../../Rules/EmailValidator";
 import {passwordValidator} from "../../../Rules/PasswordValidator";
 import BasicTextField from "../../Fields/BasicTextField/BasicTextField";
 import PasswordField from "../../Fields/PasswordField/PasswordField";
 import FilledButton from "../../Buttons/FilledButton/FilledButton";
-import SignupConfirmation from "../../Texts/SignupConfirmation/SignupConfirmation";
 import {entrypointValidator} from "../../../Rules/EntrypointValidator";
 
 const LoginForm = () => {
