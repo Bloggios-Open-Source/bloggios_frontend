@@ -1,0 +1,37 @@
+div.socialButtons__mainContainer__div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: all 250ms ease-in-out;
+}
+
+button.socialButtons__socialButton__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px 0;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background: transparent;
+  outline: none;
+  border: 1px solid var(--transparent-button-border);
+  color: var(--text-color);
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+
+  svg {
+    font-size: 18px;
+  }
+
+  &:hover {
+    background: var(--transparent-button-hover-background);
+  }
+
+  &:active {
+    background: transparent;
+  }
+}

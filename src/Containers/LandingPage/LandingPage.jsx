@@ -1,10 +1,10 @@
-import React from 'react';
+import UnauthenticatedBase from "../Bases/UnauthenticatedBase/UnauthenticatedBase";
 
 const LandingPage = () => {
     return (
-        <div>
+        <UnauthenticatedBase>
             Landing Page
-        </div>
+        </UnauthenticatedBase>
     );
 };
 

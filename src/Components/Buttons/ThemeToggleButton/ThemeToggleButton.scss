@@ -1,0 +1,32 @@
+input.themeToggleButton__wrapper__input {
+  opacity: 0;
+  position: absolute;
+}
+
+label.themeToggleButton__labelWrapper__label {
+  background-color: #272727;
+  width: 50px;
+  height: 26px;
+  border-radius: 50px;
+  position: relative;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  span {
+    background-color: #fff;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+  }
+}
+
+.themeToggleButton__wrapper__input:checked + .themeToggleButton__labelWrapper__label span {
+  transform: translateX(24px);
+}

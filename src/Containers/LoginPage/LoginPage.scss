@@ -1,0 +1,11 @@
+main.loginPage__wrapper__main {
+  width: clamp(240px, 95vw, 360px);
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  h4 {
+    color: var(--title-text-color);
+  }
+}

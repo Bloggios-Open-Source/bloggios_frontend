@@ -1,14 +1,48 @@
 @use 'colors' as *;
 
 html[data-theme="light"] {
+  --application-color-scheme: light;
   --background-color: #{$bg-light};
   --text-color: #{$text-light};
   --page-loader: #{$page-loader-light};
+  --navbar-border-bottom: #{$navbar-bottom-border-light};
+  --accent-color: #{$accent-color};
+  --accent-color-700: #{$accent-color-700};
+  --heading-text-color: #{$heading-text-light};
+  --subheading-text-color: #{$subheading-text-light};
+  --title-text-color: #{$title-text-light};
+  --subtitle-text-color: #{$subtitle-text-light};
+  --transparent-button-hover-background: #{$transparent-button-hover-background-light};
+  --transparent-button-border: #{$border-uf-light};
+  --divider-color: #{$divider-light};
+  --field-label: #{$label-light};
+  --text-field-border: #{$border-uf-light};
+  --text-field-uf-color: #{$text-field-uf-text-color-light};
+  --text-field-f-color: #{$text-field-f-text-color-light};
+  --text-field-d-color: #{$text-field-d-text-color-light};
+  --info-text-color: #{$info-text-light};
 }
 
 html[data-theme="dark"] {
+  --application-color-scheme: dark;
   --background-color: #{$bg-dark};
   --text-color: #{$text-dark};
   --page-loader: #{$page-loader-dark};
+  --navbar-border-bottom: #{$navbar-bottom-border-dark};
+  --accent-color: #{$accent-color};
+  --accent-color-700: #{$accent-color-700};
+  --heading-text-color: #{$heading-text-dark};
+  --subheading-text-color: #{$subheading-text-dark};
+  --title-text-color: #{$title-text-dark};
+  --subtitle-text-color: #{$subtitle-text-dark};
+  --transparent-button-hover-background: #{$transparent-button-hover-background-dark};
+  --transparent-button-border: #{$border-uf-dark};
+  --divider-color: #{$divider-dark};
+  --field-label: #{$label-dark};
+  --text-field-border: #{$border-uf-dark};
+  --text-field-uf-color: #{$text-field-uf-text-color-dark};
+  --text-field-f-color: #{$text-field-f-text-color-dark};
+  --text-field-d-color: #{$text-field-d-text-color-dark};
+  --info-text-color: #{$info-text-dark};
 }
 

@@ -1,0 +1,19 @@
+span.signupConfirmation__wrapper_span {
+  width: 90%;
+  align-self: center;
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: var(--info-text-color);
+
+  a {
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--info-text-color);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

@@ -20,5 +20,6 @@ body {
   -webkit-tap-highlight-color: transparent;
   scrollbar-width: thin;
   scroll-behavior: smooth;
+  color-scheme: var(--application-color-scheme);
   transition: all 250ms ease-in-out;
 }

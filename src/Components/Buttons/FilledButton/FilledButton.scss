@@ -1,0 +1,21 @@
+button.filledButton__wrapper__button {
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  background: #4258ff;
+  color: #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &:hover {
+    background: #5468ff;
+    color: #f9f9f9;
+  }
+
+  &:active {
+    background: #4258ff;
+    color: #e5e5e5;
+  }
+}

@@ -1,0 +1,15 @@
+div.orDivider__wrapper__div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 250ms ease-in-out;
+
+  div.orDivider__line__div {
+    flex: 1;
+    height: 1px;
+    background: var(--divider-color);
+    margin: 0 10px;
+    transition: all 250ms ease-in-out;
+  }
+}

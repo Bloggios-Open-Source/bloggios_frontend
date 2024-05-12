@@ -1,14 +1,7 @@
 .buttonLoader__spinner__div {
   position: relative;
-
-  &.center {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-  }
+  align-self: center;
+  transform: translate(-50%, 70%);
 
   .buttonLoader__spinnerBlade__div {
     position: absolute;
